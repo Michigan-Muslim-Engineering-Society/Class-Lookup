@@ -1,0 +1,24 @@
+.lookupInput {
+    width: 80%;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lookupButton {
+    display: block;
+    font-size: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+.lookupEntries {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

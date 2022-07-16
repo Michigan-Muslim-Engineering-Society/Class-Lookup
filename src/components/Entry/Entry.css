@@ -1,0 +1,14 @@
+.Entry {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px black;
+    padding: 5px;
+}
+
+.Entry>p, .Entry>h1 {
+    margin: 0px;
+}

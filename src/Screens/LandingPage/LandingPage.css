@@ -1,0 +1,39 @@
+.landingPage {
+    text-align: center;
+    background-color: var(--blue);
+    color: var(--white);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+
+.landingGreeting {
+    margin: 0px;
+}
+
+.landingInstructions {
+    padding-bottom: 20px;
+}
+
+.landingPageOptions {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.landingPageOptions>a>button {
+    background-color: var(--maize);
+    width: 250px;
+    height:150px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.landingPageOptions>button:hover {
+    border: solid 3px black;
+}
